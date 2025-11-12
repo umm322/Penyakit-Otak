@@ -1,3 +1,4 @@
+
 Ext.define('otak.store.Personnel', {
     extend: 'Ext.data.Store',
     alias: 'store.personnel',
@@ -5,14 +6,18 @@ Ext.define('otak.store.Personnel', {
     model: 'otak.model.Personnel',
     storeId: 'personnel',
 
+    pageSize: 10,
+    autoLoad: true,
+
     proxy: {
         type: 'ajax',
-        url: 'app/data/brain.json',  // path to your JSON file
+        url: 'app/Data/brain.json',
         reader: {
             type: 'json',
-            rootProperty: ''  // make sure your JSON looks like { "items": [ ... ] }
+            rootProperty: ''
         }
     },
 
-    autoLoad: true
+    remoteSort: false,
+    remoteFilter: false
 });

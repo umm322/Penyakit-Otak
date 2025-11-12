@@ -4,7 +4,8 @@
     "version": "1.0.0.0",
     "framework": "ext",
     "toolkit": "modern",
-    "theme": "theme-material",
+    "theme": "theme-neptune",
+    
 
     /**
      * The list of required packages (with optional versions; default is "latest").
