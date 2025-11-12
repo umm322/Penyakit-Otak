@@ -1,0 +1,26 @@
+.x-grid {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.x-gridrow {
+    transition: background-color 0.2s ease;
+}
+
+.x-gridrow:hover {
+    background-color: #f3f3f3;
+}
+
+.x-toolbar {
+    background: #1e88e5;
+    color: white;
+}
+
+.x-toolbar .x-button {
+    color: white;
+}
+
+.x-toolbar .x-field {
+    background-color: white;
+    border-radius: 6px;
+}

@@ -1,0 +1,514 @@
+[
+  {
+    "Letter": "A",
+    "Disease_Name": "Adrenoleukodystrophy (ALD)",
+    "Category": "Metabolic/Leukodystrophy",
+    "Description": "Rare X-linked disorder causing breakdown of myelin due to very-long-chain fatty acid buildup. Affects brain, adrenal glands, and nerves.",
+    "Prevalence_Range": "1 in 17",
+    "Source_URL": "000 (males)"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Adult-Onset Leukoencephalopathy With Axonal Spheroids and Pigmented Glia (ALSP)",
+    "Category": "Leukodystrophy",
+    "Description": "Rare progressive white matter disease with cognitive decline, motor issues, and psychiatric symptoms. Caused by CSF1R gene mutations.",
+    "Prevalence_Range": "<1 in 1",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "ALS and Neuromuscular Diseases",
+    "Category": "Neurodegenerative",
+    "Description": "Group of progressive motor neuron diseases including Amyotrophic Lateral Sclerosis (ALS).",
+    "Prevalence_Range": "Varies by subtype",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/amyotrophic-lateral-sclerosis-als"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Alzheimer’s Disease",
+    "Category": "Neurodegenerative",
+    "Description": "Most common cause of dementia; progressive memory loss, confusion, and behavioral changes due to amyloid plaques and tau tangles.",
+    "Prevalence_Range": "1 in 9 (age 65+)",
+    "Source_URL": "https://www.nia.nih.gov/health/alzheimers-disease-fact-sheet"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Amyotrophic Lateral Sclerosis (ALS)",
+    "Category": "Neurodegenerative",
+    "Description": "Progressive degeneration of motor neurons leading to muscle weakness, paralysis, and death. Also known as Lou Gehrig’s disease.",
+    "Prevalence_Range": "1 in 300 lifetime risk",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/amyotrophic-lateral-sclerosis-als"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Angelman Syndrome",
+    "Category": "Neurogenetic",
+    "Description": "Genetic disorder causing developmental delay, severe speech impairment, ataxia, and inappropriate laughter. Due to UBE3A gene defect.",
+    "Prevalence_Range": "1 in 12",
+    "Source_URL": "000–20"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Aphasia",
+    "Category": "Language Disorder",
+    "Description": "Impairment of language comprehension or expression due to brain damage (usually stroke).",
+    "Prevalence_Range": "1 in 250 post-stroke",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/aphasia"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Ataxia",
+    "Category": "Movement Disorder",
+    "Description": "Loss of coordination in voluntary movements, often due to cerebellar damage.",
+    "Prevalence_Range": "Varies by type",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/ataxia"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Autism",
+    "Category": "Neurodevelopmental",
+    "Description": "Spectrum of conditions with challenges in social interaction, communication, and repetitive behaviors.",
+    "Prevalence_Range": "1 in 36 children (CDC)",
+    "Source_URL": "https://www.cdc.gov/autism"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Autism and Neurodevelopment",
+    "Category": "Neurodevelopmental",
+    "Description": "Broad category including autism, intellectual disability, and developmental delays.",
+    "Prevalence_Range": "Varies",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/autism-spectrum-disorder"
+  },
+  {
+    "Letter": "A",
+    "Disease_Name": "Autoimmune Diseases",
+    "Category": "Immune-Mediated",
+    "Description": "Disorders where immune system attacks nervous system (e.g., MS, Guillain-Barré).",
+    "Prevalence_Range": "Varies by disease",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/autoimmune-diseases"
+  },
+  {
+    "Letter": "B",
+    "Disease_Name": "Batten Disease",
+    "Category": "Neurodegenerative/Lysosomal",
+    "Description": "Rare inherited disorder causing vision loss, seizures, and cognitive decline. Also called neuronal ceroid lipofuscinosis.",
+    "Prevalence_Range": "1 in 100",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "B",
+    "Disease_Name": "Bell’s Palsy",
+    "Category": "Facial Nerve Disorder",
+    "Description": "Sudden weakness or paralysis of facial muscles, usually on one side. Often viral-triggered.",
+    "Prevalence_Range": "1 in 60 lifetime",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/bells-palsy"
+  },
+  {
+    "Letter": "B",
+    "Disease_Name": "Brain and Nerve Tumors",
+    "Category": "Oncology",
+    "Description": "Tumors of the brain (glioma, meningioma) or peripheral nerves (schwannoma).",
+    "Prevalence_Range": "22.6 per 100",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "B",
+    "Disease_Name": "Brain Aneurysm",
+    "Category": "Vascular",
+    "Description": "Bulge in brain artery wall that can rupture and cause hemorrhagic stroke.",
+    "Prevalence_Range": "2–3% of population",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/brain-aneurysm"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "CADASIL",
+    "Category": "Vascular Dementia",
+    "Description": "Inherited small vessel disease causing strokes and dementia. NOTCH3 gene mutation.",
+    "Prevalence_Range": "1–5 in 100",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "Cerebral Palsy",
+    "Category": "Motor Disorder",
+    "Description": "Group of disorders affecting movement and posture due to early brain damage.",
+    "Prevalence_Range": "1 in 345 children",
+    "Source_URL": "https://www.cdc.gov/cerebral-palsy"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "Cerebral Small Vessel Disease",
+    "Category": "Vascular",
+    "Description": "Damage to small brain arteries leading to cognitive decline and stroke.",
+    "Prevalence_Range": "Common in elderly",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/cerebral-small-vessel-disease"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "Chiari Malformation",
+    "Category": "Structural",
+    "Description": "Brain tissue extends into spinal canal. Causes headaches, balance issues.",
+    "Prevalence_Range": "1 in 1",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "Chronic Traumatic Encephalopathy (CTE)",
+    "Category": "Neurodegenerative",
+    "Description": "Progressive degeneration from repeated head impacts. Seen in athletes and veterans.",
+    "Prevalence_Range": "Unknown (post-mortem)",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/chronic-traumatic-encephalopathy-cte"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "Concussion",
+    "Category": "Traumatic Brain Injury",
+    "Description": "Mild TBI causing temporary brain dysfunction. Symptoms: headache, confusion, memory issues.",
+    "Prevalence_Range": "1.7–3 million/year (US)",
+    "Source_URL": "https://www.cdc.gov/traumatic-brain-injury"
+  },
+  {
+    "Letter": "C",
+    "Disease_Name": "Cushing’s Syndrome",
+    "Category": "Endocrine",
+    "Description": "Excess cortisol affecting brain function, mood, and cognition.",
+    "Prevalence_Range": "40–70 per million",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/cushings-syndrome"
+  },
+  {
+    "Letter": "D",
+    "Disease_Name": "Dementia",
+    "Category": "Neurodegenerative",
+    "Description": "Umbrella term for cognitive decline severe enough to affect daily life (Alzheimer’s, vascular, Lewy body).",
+    "Prevalence_Range": "1 in 10 (age 65+)",
+    "Source_URL": "https://www.alz.org/alzheimers-dementia/what-is-dementia"
+  },
+  {
+    "Letter": "D",
+    "Disease_Name": "Dysautonomia",
+    "Category": "Autonomic Disorder",
+    "Description": "Malfunction of autonomic nervous system affecting heart rate, blood pressure, digestion.",
+    "Prevalence_Range": "Millions affected",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/dysautonomia"
+  },
+  {
+    "Letter": "D",
+    "Disease_Name": "Dyslexia",
+    "Category": "Learning Disorder",
+    "Description": "Difficulty reading due to problems identifying speech sounds and relating them to letters.",
+    "Prevalence_Range": "1 in 5–10",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/dyslexia"
+  },
+  {
+    "Letter": "D",
+    "Disease_Name": "Dystonia",
+    "Category": "Movement Disorder",
+    "Description": "Sustained muscle contractions causing twisting movements or abnormal postures.",
+    "Prevalence_Range": "1 in 2",
+    "Source_URL": "000–3"
+  },
+  {
+    "Letter": "E",
+    "Disease_Name": "Encephalitis",
+    "Category": "Infectious",
+    "Description": "Brain inflammation, usually viral. Causes fever, confusion, seizures.",
+    "Prevalence_Range": "1 in 100",
+    "Source_URL": "000/year"
+  },
+  {
+    "Letter": "E",
+    "Disease_Name": "Epilepsy",
+    "Category": "Seizure Disorder",
+    "Description": "Chronic disorder with recurrent unprovoked seizures.",
+    "Prevalence_Range": "1 in 100",
+    "Source_URL": "https://www.epilepsy.com"
+  },
+  {
+    "Letter": "F",
+    "Disease_Name": "Fibromyalgia",
+    "Category": "Chronic Pain",
+    "Description": "Widespread pain, fatigue, cognitive issues. Central sensitization disorder.",
+    "Prevalence_Range": "2–4% of adults",
+    "Source_URL": "https://www.niams.nih.gov/health-topics/fibromyalgia"
+  },
+  {
+    "Letter": "F",
+    "Disease_Name": "Frontotemporal Disorders",
+    "Category": "Neurodegenerative",
+    "Description": "Group of dementias affecting behavior, personality, and language (e.g., Pick’s disease).",
+    "Prevalence_Range": "1 in 20",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "F",
+    "Disease_Name": "Functional Neurologic Disorder",
+    "Category": "Psychogenic",
+    "Description": "Neurological symptoms (paralysis, seizures) without structural cause. Often stress-related.",
+    "Prevalence_Range": "10–30% of neurology visits",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/functional-neurologic-disorder"
+  },
+  {
+    "Letter": "G",
+    "Disease_Name": "Guillain-Barré Syndrome",
+    "Category": "Autoimmune Neuropathy",
+    "Description": "Rapid-onset muscle weakness caused by immune attack on peripheral nerves.",
+    "Prevalence_Range": "1–2 in 100",
+    "Source_URL": "000/year"
+  },
+  {
+    "Letter": "H",
+    "Disease_Name": "Headache",
+    "Category": "Primary/Secondary",
+    "Description": "Includes migraine, tension, cluster. Can be disabling.",
+    "Prevalence_Range": "50% of adults",
+    "Source_URL": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders"
+  },
+  {
+    "Letter": "H",
+    "Disease_Name": "Headache and Pain",
+    "Category": "Chronic Pain",
+    "Description": "Broad category of persistent head and body pain syndromes.",
+    "Prevalence_Range": "Varies",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/headache"
+  },
+  {
+    "Letter": "H",
+    "Disease_Name": "Huntington’s Disease",
+    "Category": "Neurogenetic",
+    "Description": "Inherited disorder causing progressive brain cell death. Symptoms: movement, cognitive, psychiatric.",
+    "Prevalence_Range": "1 in 10",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "H",
+    "Disease_Name": "Hydrocephalus",
+    "Category": "Structural",
+    "Description": "Excess cerebrospinal fluid in brain causing pressure and cognitive issues.",
+    "Prevalence_Range": "1 in 1",
+    "Source_URL": "000 births"
+  },
+  {
+    "Letter": "L",
+    "Disease_Name": "Lewy Body Dementia",
+    "Category": "Neurodegenerative",
+    "Description": "Dementia with hallucinations, parkinsonism, and fluctuating cognition. Alpha-synuclein deposits.",
+    "Prevalence_Range": "1.4 million (US)",
+    "Source_URL": "https://www.nia.nih.gov/health/lewy-body-dementia"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Mal de Débarquement Syndrome (MdDS)",
+    "Category": "Vestibular",
+    "Description": "Persistent rocking sensation after travel (boat, plane).",
+    "Prevalence_Range": "1 in 10",
+    "Source_URL": "000 travelers"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Meningitis",
+    "Category": "Infectious",
+    "Description": "Inflammation of brain and spinal cord membranes. Bacterial or viral.",
+    "Prevalence_Range": "Varies by type",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/meningitis"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Migraine",
+    "Category": "Headache Disorder",
+    "Description": "Recurrent severe headache with nausea, light sensitivity.",
+    "Prevalence_Range": "1 in 7 people",
+    "Source_URL": "https://www.migrainetrust.org/about-migraine"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Movement Disorders",
+    "Category": "Neurological",
+    "Description": "Includes Parkinson’s, essential tremor, dystonia, tics.",
+    "Prevalence_Range": "Varies",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/movement-disorders"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Moyamoya Disease",
+    "Category": "Vascular",
+    "Description": "Progressive narrowing of brain arteries leading to stroke risk.",
+    "Prevalence_Range": "1 in 100",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Multiple Sclerosis",
+    "Category": "Autoimmune",
+    "Description": "Immune attack on myelin causing fatigue, numbness, vision loss, mobility issues.",
+    "Prevalence_Range": "1 in 700 (US)",
+    "Source_URL": "https://www.nationalmssociety.org"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Muscular Dystrophy",
+    "Category": "Genetic",
+    "Description": "Group of 30+ genetic diseases causing progressive muscle weakness.",
+    "Prevalence_Range": "1 in 3",
+    "Source_URL": "500 males (Duchenne)"
+  },
+  {
+    "Letter": "M",
+    "Disease_Name": "Myasthenia Gravis",
+    "Category": "Autoimmune Neuromuscular",
+    "Description": "Muscle weakness worsening with activity. Affects eyes, face, throat.",
+    "Prevalence_Range": "1 in 5",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "N",
+    "Disease_Name": "Neurogenetic Diseases",
+    "Category": "Genetic",
+    "Description": "Disorders caused by gene mutations affecting the nervous system.",
+    "Prevalence_Range": "Varies",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/neurogenetic-disorders"
+  },
+  {
+    "Letter": "N",
+    "Disease_Name": "Neuroinfectious Diseases",
+    "Category": "Infectious",
+    "Description": "Brain infections: encephalitis, meningitis, prion diseases.",
+    "Prevalence_Range": "Varies",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/neuroinfectious-diseases"
+  },
+  {
+    "Letter": "N",
+    "Disease_Name": "Neurorehabilitation",
+    "Category": "Rehabilitation",
+    "Description": "Therapies to restore function after brain injury, stroke, or disease.",
+    "Prevalence_Range": "N/A",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/neurorehabilitation"
+  },
+  {
+    "Letter": "P",
+    "Disease_Name": "PANS/PANDAS",
+    "Category": "Autoimmune Neuropsychiatric",
+    "Description": "Sudden onset OCD and tics triggered by infections (streptococcus).",
+    "Prevalence_Range": "1 in 200 children (est.)",
+    "Source_URL": "https://www.nimh.nih.gov/health/topics/pandas"
+  },
+  {
+    "Letter": "P",
+    "Disease_Name": "Parkinson’s Disease",
+    "Category": "Neurodegenerative",
+    "Description": "Progressive loss of dopamine cells causing tremor, stiffness, slowness.",
+    "Prevalence_Range": "1 in 500 (age 60+)",
+    "Source_URL": "https://www.parkinson.org"
+  },
+  {
+    "Letter": "P",
+    "Disease_Name": "Peripheral Neuropathy",
+    "Category": "Nerve Disorder",
+    "Description": "Damage to peripheral nerves causing pain, numbness, weakness.",
+    "Prevalence_Range": "2–8% of adults",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/peripheral-neuropathy"
+  },
+  {
+    "Letter": "P",
+    "Disease_Name": "Post-Traumatic Stress Disorder (PTSD)",
+    "Category": "Psychiatric",
+    "Description": "Persistent mental distress after trauma. Affects memory, mood, arousal.",
+    "Prevalence_Range": "6–8% lifetime",
+    "Source_URL": "https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd"
+  },
+  {
+    "Letter": "P",
+    "Disease_Name": "Progressive Supranuclear Palsy (PSP)",
+    "Category": "Tauopathy",
+    "Description": "Rare Parkinson-like disease with falls, eye movement issues, dementia.",
+    "Prevalence_Range": "1 in 100",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "R",
+    "Disease_Name": "REM Sleep Behavior Disorder (RBD)",
+    "Category": "Sleep Disorder",
+    "Description": "Acting out vivid dreams due to lack of muscle atonia in REM sleep. Precursor to Parkinson’s.",
+    "Prevalence_Range": "1–2% over age 50",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/rem-sleep-behavior-disorder"
+  },
+  {
+    "Letter": "S",
+    "Disease_Name": "Schizencephaly",
+    "Category": "Structural",
+    "Description": "Congenital brain malformation with clefts lined by gray matter.",
+    "Prevalence_Range": "1 in 70",
+    "Source_URL": "000 births"
+  },
+  {
+    "Letter": "S",
+    "Disease_Name": "Sleep Disorders",
+    "Category": "Neurological",
+    "Description": "Includes insomnia, sleep apnea, narcolepsy, RBD.",
+    "Prevalence_Range": "1 in 3 adults",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/sleep-disorders"
+  },
+  {
+    "Letter": "S",
+    "Disease_Name": "Spinal Muscular Atrophy",
+    "Category": "Genetic Motor",
+    "Description": "Progressive motor neuron loss leading to muscle weakness. SMA Type 1 most severe.",
+    "Prevalence_Range": "1 in 10",
+    "Source_URL": "000 births"
+  },
+  {
+    "Letter": "S",
+    "Disease_Name": "Stiff Person Syndrome",
+    "Category": "Autoimmune",
+    "Description": "Rare disorder with muscle stiffness and painful spasms. GAD antibody positive.",
+    "Prevalence_Range": "1 in 1",
+    "Source_URL": "000"
+  },
+  {
+    "Letter": "S",
+    "Disease_Name": "Stroke",
+    "Category": "Vascular",
+    "Description": "Sudden interruption of blood to brain causing cell death. Ischemic or hemorrhagic.",
+    "Prevalence_Range": "1 in 6 lifetime risk",
+    "Source_URL": "https://www.stroke.org"
+  },
+  {
+    "Letter": "T",
+    "Disease_Name": "Terson Syndrome",
+    "Category": "Ocular-Neurological",
+    "Description": "Vitreous hemorrhage following subarachnoid hemorrhage.",
+    "Prevalence_Range": "8–14% of SAH cases",
+    "Source_URL": "https://pubmed.ncbi.nlm.nih.gov/28620723/"
+  },
+  {
+    "Letter": "T",
+    "Disease_Name": "Tourette Syndrome",
+    "Category": "Tic Disorder",
+    "Description": "Involuntary motor and vocal tics. Onset in childhood.",
+    "Prevalence_Range": "1 in 160 children",
+    "Source_URL": "https://www.cdc.gov/ncbddd/tourette"
+  },
+  {
+    "Letter": "T",
+    "Disease_Name": "Transient Ischemic Attack (TIA)",
+    "Category": "Vascular",
+    "Description": "Mini-stroke with temporary symptoms. Warning sign of full stroke.",
+    "Prevalence_Range": 200,
+    "Source_URL": "000/year (US)"
+  },
+  {
+    "Letter": "T",
+    "Disease_Name": "Traumatic Brain Injury",
+    "Category": "Injury",
+    "Description": "Brain damage from external force. Ranges from mild (concussion) to severe.",
+    "Prevalence_Range": "2.8 million/year (US)",
+    "Source_URL": "https://www.cdc.gov/traumatic-brain-injury"
+  },
+  {
+    "Letter": "T",
+    "Disease_Name": "Tremors",
+    "Category": "Movement Disorder",
+    "Description": "Rhythmic shaking. Includes essential tremor, Parkinsonian tremor.",
+    "Prevalence_Range": "4–5% over age 40",
+    "Source_URL": "https://www.ninds.nih.gov/health-information/disorders/tremor"
+  }
+]
