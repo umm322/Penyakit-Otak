@@ -11,39 +11,28 @@ Ext.define('otak.view.main.Main', {
 
     items: [
         {
-            xtype: 'toolbar',
-            docked: 'top',
-            style: {
-                'background-color': '#2b2d42',
-                'color': '#fff',
-                'padding': '10px',
-                'font-size': '22px',
-                'font-weight': '600',
-                'margin-bottom': '15px'
-            },
+          xtype: 'toolbar',
+          docked: 'top',
+          style: {
+              'background-color': 'green',
+              'color': '#fff',
+              'padding': '10px',
+              'font-size': '22px',
+              'font-weight': '600',
+              'margin-bottom': '15px'
+          },
             items: [
-                {
-                    xtype: 'component',
-                    html: '<div style="color:#fff;">Brain Disease Data</div>'
-                },
-                { xtype: 'spacer' },
-                {
-                    xtype: 'button',
-                    text: 'Reload Data',
-                    ui: 'action',
-                    iconCls: 'x-fa fa-sync',
-                    style: {
-                        'background-color': '#4cc9f0',
-                        'color': '#fff',
-                        'border-radius': '6px',
-                        'font-weight': '500'
-                    },
-                    handler: function () {
-                        const store = Ext.getStore('personnel');
-                        store.load();
-                    }
-                }
-            ]
+              {
+                xtype: 'component',
+                html: `
+                    <div style="display:flex; align-items:center; gap:10px;">
+                        <img src="resources/images.jpg" style="height:30px; width:30px;">
+                        <span>Brain Disease Data</span>
+                    </div>
+                `
+              },
+              { xtype: 'spacer' },
+          ]
         },
         {
             xtype: 'textfield',
@@ -88,8 +77,7 @@ Ext.define('otak.view.main.Main', {
             scrollable: true,
             shadow: true,
             border: true,
-            store: {
-                type: 'personnel'
+            store: {               type: 'personnel'
             },
             style: {
                 'background-color': '#ffffff',
@@ -105,17 +93,19 @@ Ext.define('otak.view.main.Main', {
                 {
                     text: 'Source',
                     dataIndex: 'Source_URL',
-                    flex: 1,
-                    renderer: function (value) {
+                    width: 120,
+                    renderer: function(value) {
                         if (!value) return '<span style="color:gray;">No source</span>';
                         return `<a href="${value}" target="_blank" style="color:#007aff;text-decoration:none;">View Source</a>`;
+                    },
+                    cell: {
+                        encodeHtml: false // This allows HTML to render properly
                     }
-                }
-            ],
+                }           ],
             listeners: {
                 painted: function (grid) {
                     grid.currentPage = 1;
-                    grid.pageSize = 10;
+                    grid.pageSize = 18;
 
                     grid.updatePagination = function () {
                         const store = Ext.getStore('personnel');
