@@ -2,6 +2,10 @@ Ext.define('otak.view.main.Main', {
     extend: 'Ext.Container',
     xtype: 'app-main',
 
+    requires: [
+        'otak.view.ai.ChatBot'
+    ],
+
     layout: {
         type: 'vbox',
         align: 'stretch'
@@ -11,28 +15,23 @@ Ext.define('otak.view.main.Main', {
 
     items: [
         {
-          xtype: 'toolbar',
-          docked: 'top',
-          style: {
-              'background-color': 'green',
-              'color': '#fff',
-              'padding': '10px',
-              'font-size': '22px',
-              'font-weight': '600',
-              'margin-bottom': '15px'
-          },
+            xtype: 'toolbar',
+            docked: 'top',
+            style: {
+                'background-color': '#2b2d42',
+                'color': '#fff',
+                'padding': '10px',
+                'font-size': '22px',
+                'font-weight': '600',
+                'margin-bottom': '15px'
+            },
             items: [
-              {
-                xtype: 'component',
-                html: `
-                    <div style="display:flex; align-items:center; gap:10px;">
-                        <img src="resources/images.jpg" style="height:30px; width:30px;">
-                        <span>Brain Disease Data</span>
-                    </div>
-                `
-              },
-              { xtype: 'spacer' },
-          ]
+                {
+                    xtype: 'component',
+                    html: '<div style="color:#fff;">Brain Disease Data</div>'
+                },
+                { xtype: 'spacer' }
+            ]
         },
         {
             xtype: 'textfield',
@@ -77,7 +76,8 @@ Ext.define('otak.view.main.Main', {
             scrollable: true,
             shadow: true,
             border: true,
-            store: {               type: 'personnel'
+            store: {
+                type: 'personnel'
             },
             style: {
                 'background-color': '#ffffff',
@@ -95,21 +95,24 @@ Ext.define('otak.view.main.Main', {
                     dataIndex: 'Source_URL',
                     width: 120,
                     renderer: function(value) {
-                        if (!value) return '<span style="color:gray;">No source</span>';
-                        return `<a href="${value}" target="_blank" style="color:#007aff;text-decoration:none;">View Source</a>`;
+                        if (value && (value.startsWith('http://') || value.startsWith('https://'))) {
+                            return `<a href="${value}" target="_blank" style="color:#007aff;text-decoration:none;">View Source</a>`;
+                        }
+                        return '<span style="color:gray;">No source</span>';
                     },
                     cell: {
-                        encodeHtml: false // This allows HTML to render properly
+                        encodeHtml: false
                     }
-                }           ],
+                }
+            ],
             listeners: {
                 painted: function (grid) {
                     grid.currentPage = 1;
-                    grid.pageSize = 18;
+                    grid.pageSize = 17;
 
                     grid.updatePagination = function () {
                         const store = Ext.getStore('personnel');
-                        const allRecords = store.getRange(); // ambil dari store yg udah ke-filter
+                        const allRecords = store.getRange();
 
                         const total = allRecords.length;
                         const start = (grid.currentPage - 1) * grid.pageSize;
@@ -197,6 +200,56 @@ Ext.define('otak.view.main.Main', {
                     }
                 }
             ]
+        },
+
+        // Floating AI Chat Button
+        {
+            xtype: 'button',
+            docked: 'bottom',
+            right: 20,
+            bottom: 20,
+            width: 60,
+            height: 60,
+            style: {
+                'border-radius': '50%',
+                'background-color': '#007aff',
+                'color': 'white',
+                'box-shadow': '0 4px 12px rgba(0,122,255,0.3)',
+                'border': 'none',
+                'font-size': '24px'
+            },
+            html: '🤖',
+            handler: function() {
+                this.up('app-main').showChatPopup();
+            }
         }
-    ]
+    ],
+
+    showChatPopup: function() {
+        if (!this.chatWindow) {
+            this.chatWindow = Ext.create('Ext.window.Window', {
+                title: '🧠 Brain Disease AI Assistant',
+                width: 400,
+                height: 500,
+                layout: 'fit',
+                closable: true,
+                resizable: true,
+                maximizable: true,
+                x: Ext.Viewport.getWidth() - 450, // Position near right edge
+                y: 100,
+                items: [{
+                    xtype: 'aichatbot'
+                }],
+                listeners: {
+                    close: function() {
+                        this.chatWindow.destroy();
+                        this.chatWindow = null;
+                    },
+                    scope: this
+                }
+            });
+        }
+        
+        this.chatWindow.show();
+    }
 });
