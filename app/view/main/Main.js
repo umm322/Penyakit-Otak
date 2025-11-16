@@ -12,13 +12,16 @@ Ext.define('otak.view.main.Main', {
     },
     padding: 20,
     scrollable: true,
+    style: {
+      backgroundColor: '#6c9d87',
+    },
 
     items: [
         {
             xtype: 'toolbar',
             docked: 'top',
             style: {
-                'background-color': '#2b2d42',
+                'background-color': '#1d2924',
                 'color': '#fff',
                 'padding': '10px',
                 'font-size': '22px',
@@ -38,13 +41,13 @@ Ext.define('otak.view.main.Main', {
             reference: 'searchField',
             placeholder: 'Search by name or category...',
             clearable: true,
-            height: 36,
+            height: 50,
             width: 250,
             style: {
                 'border-radius': '6px',
                 'background-color': '#fff',
                 'color': '#000',
-                'margin-bottom': '10px'
+                'margin-bottom': '16px'
             },
             listeners: {
                 change: function (field, newValue) {
